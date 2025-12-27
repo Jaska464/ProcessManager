@@ -1,0 +1,11 @@
+# compiled stuff
+*.o
+task_manager
+
+# editor files
+*.swp
+*.swo
+*~
+
+# other
+.DS_Store
